@@ -1,12 +1,11 @@
 package com.example;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class MiniTest {
-    
-    @Test
+
+public class MinTest {
+     @Test
     public void simpleTest() {
         // Setup ChromeDriver path - update this to your chromedriver location
         System.setProperty("webdriver.chrome.driver", "./chromedriver.exe");
@@ -26,4 +25,8 @@ public class MiniTest {
             driver.quit();
         }
     }
+}
+
+
+    
 }
